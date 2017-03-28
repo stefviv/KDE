@@ -1,0 +1,25 @@
+Quick setup — if you’ve done this kind of thing before
+ Set up in Desktop 
+or 
+ 
+HTTPS 
+ 
+SSH 
+ Copy to clipboard   
+We recommend every repository include a README, LICENSE, and .gitignore. 
+
+…or create a new repository on the command line
+
+Copy to clipboard 
+echo "# KDE" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/stefviv/KDE.git
+git push -u origin master
+
+…or push an existing repository from the command line
+
+Copy to clipboard 
+git remote add origin https://github.com/stefviv/KDE.git
+git push -u origin master
