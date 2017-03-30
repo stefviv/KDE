@@ -1,0 +1,7 @@
+[KSplash Theme: iut]
+Name = iut Splash Screen
+Description = Default splash screen for Debian 8.0 Jessie
+Version = 1.0
+Author = stefviv
+Homepage = http://www.kde.org
+Engine = KSplashQML

@@ -1,0 +1,10 @@
+# This is not really a .desktop file like the rest, but it is useful to treat
+# it as such
+
+[KdmGreeterTheme]
+Greeter=iut.xml
+Name=iut
+Name[fr]=iut
+Author=stefviv
+Copyright=GPL 2017 stefviv
+Screenshot=screenshot.png
