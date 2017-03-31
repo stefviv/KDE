@@ -7,7 +7,6 @@ sed 's/#PreselectUser=Previous/PreselectUser=None/' -i /etc/kde4/kdm/kdmrc
 sed 's/PreselectUser=Previous/PreselectUser=None/' -i /etc/kde4/kdm/kdmrc
 sed 's|Theme=@@@ToBeReplacedByDesktopBase@@@|Theme=/usr/share/kde4/apps/kdm/themes/iut|' -i /etc/kde4/kdm/kdmrc
 sed 's|elarun|iut|' -i /etc/init.d/kdm
-wget https://raw.githubusercontent.com/stefviv/KDE/master/KDE/4.14.2/Theme.tar
+wget https://raw.githubusercontent.com/stefviv/KDE/master/4.14.2/Theme.tar
 tar xf Theme.tar --directory /
 update-rc.d kdm defaults
-reboot
