@@ -1,11 +1,16 @@
-Quick setup — if you’ve done this kind of thing before
- Set up in Desktop 
-or 
- 
-HTTPS 
- 
-SSH 
- Copy to clipboard   
+stefviv@DEBIAN:~$ cd /home/stefviv/
+stefviv@DEBIAN:~$ mkdir Git
+stefviv@DEBIAN:~$ cd Git/
+stefviv@DEBIAN:~/Git$ git config --global user.name "stefviv"
+stefviv@DEBIAN:~/Git$ git config --global user.email "stefviv@XXXXX.XX"
+stefviv@DEBIAN:~/Git$ git clone https://github.com/stefviv/Jessie.git
+stefviv@DEBIAN:~/Git$ cd Jessie/
+stefviv@DEBIAN:~/Git/Jessie$ nano githelp.txt
+stefviv@DEBIAN:~/Git/Jessie$ git add * --all
+stefviv@DEBIAN:~/Git/Jessie$ git commit -m "MAJ"
+stefviv@DEBIAN:~/Git/Jessie$ git push
+===============================================================================
+
 We recommend every repository include a README, LICENSE, and .gitignore. 
 
 …or create a new repository on the command line
